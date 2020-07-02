@@ -6,7 +6,16 @@ namespace final
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SomeClass test = new SomeClass();
+            test.SomeClassMethod();
+        }
+
+        public class SomeClass 
+        {
+            public void SomeClassMethod()
+            {
+                Console.WriteLine("Hello World!");
+            }
         }
     }
 }
